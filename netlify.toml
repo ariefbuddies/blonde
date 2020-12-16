@@ -1,3 +1,3 @@
 [build]
 publish = "public"
-command = "hugo --theme=dimension --buildDrafts --gc --minify"
+command = " git submodule add https://github.com/opera7133/Blonde.git themes/Blonde && cd hugo --theme=Blonde --buildDrafts --gc --minify"
